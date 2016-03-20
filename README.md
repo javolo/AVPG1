@@ -26,9 +26,7 @@ place inside. I´ve change the design the level to make it more intresting and ge
 and try to find the another place in the map to pass to the next level killing enemies along the way. In this case
 I modified the original design adding some walls with textures.
 
-Include image of tutorial map and created for me
-
-![Alt text](https://github.com/javolo/octet/blob/master/octet/src/examples/AssignmentOne/images/ScreenDifference.gif "Map Level")
+![Alt text](https://github.com/javolo/AVPG1/blob/master/Images/Map.gif "Map Level")
 
 # 2. CHARACTER CLASS
 
@@ -43,9 +41,7 @@ orientation and place where the player is going to be spawn.
 To do this I am going to be create in a specific blueprint class containing all the basic elements of the game, the
 player initial position, the way the enemies are spawn and some of the health score treatment. 
 
-Include image of twin stick mode
-
-![Alt text](https://github.com/javolo/octet/blob/master/octet/src/examples/AssignmentOne/images/PlayerBackground.gif "Background Player Image")
+![Alt text](https://github.com/javolo/AVPG1/blob/master/Images/TwinStickMode.GIF "Twin Stick Mode")
 
 # 3. WEAPON AND PROJECTILE
 
@@ -56,13 +52,13 @@ class we define the object itself and include some of the logic when the enemy i
 One of the trickiest part about the weapon is to make it fit perfectly with the hand of the player to look as mas realistic 
 as possible:
 
-Include pic of fit the weapon
+![Alt text](https://github.com/javolo/AVPG1/blob/master/Images/HeroAndGun.GIF "Weapon Fit")
 
 Regarding the projectile what we´ve customized it´s the size of the laser and the color of it. As extra feature we´ve
 included some particle associated to make throw sparks when a laser hits an enemy. In there we´ve customized the color,
 the way is spawned, the size and direction of it.
 
-Include pic of panel of sparks
+![Alt text](https://github.com/javolo/AVPG1/blob/master/Images/LaserPic.GIF "Laser Sparks Menu")
 
 # 4. HEALTH AND SCORE
 
@@ -81,7 +77,7 @@ How the health is treated in both cases is different. When in the Enemy Characte
 when the enemy overlap the player and substract the damage from the player, to remove health from the enemy is done 
 when the projectile collides with the Enemy character.
 
-Include screenshot of Enemy logic and Weapon
+![Alt text](https://github.com/javolo/AVPG1/blob/master/Images/EnemyLogicHealth.GIF "Enemy Logic Health")
 
 # 5. RESPAWN ENEMY AND HERO
 
@@ -92,14 +88,14 @@ Then enemy is born within a NavMeshBoundVolume that with the logic to respawn th
 through events the enemies keeps appearing while we didn´t reach the maximum number of them and every opponent created
 inmediately goes after the player to kill him.
 
-Include screenshot of spawn enemy
+![Alt text](https://github.com/javolo/AVPG1/blob/master/Images/SpawnEnemies.GIF "Spawn Enemy")
 
 # 6. ANIMATIONS
 
 The animation component of the player is formed of two things. The animation itself where we perform element such as
 walking, jogging or death, and the blend space where we join all the animation parts together.
 
-Include screenshot of blend
+![Alt text](https://github.com/javolo/AVPG1/blob/master/Images/BlendMenu.GIF "Blend Menu")
 
 # 7. SOUNDS
 
@@ -131,7 +127,9 @@ Besides that a lot of things can be added to the game:
  * Jump between levels when reach specific place in the map
  * Make the enemy to hold a gun and shot the player not only chase him.
  * Randomize the colour of the enemy when spawn.
+ * Modify and improve the spawn enemies function, countin the number of them, increasing the number over time...
 
 # 10. GREETINGS
 
-Just a small note to credit http://www.freesfx.co.uk for the sounds
+Just a small note to credit http://www.freesfx.co.uk for the sounds and “Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)”
+for the background music
